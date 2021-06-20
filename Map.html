@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china-cities.js"></script>
+
+</head>
+<body>
+    <div id="24c8dbab461e4920b84069855f0e9371" class="chart-container" style="width:1500px; height:600px;"></div>
+    <script>
+        var chart_24c8dbab461e4920b84069855f0e9371 = echarts.init(
+            document.getElementById('24c8dbab461e4920b84069855f0e9371'), 'white', {renderer: 'canvas'});
+        var option_24c8dbab461e4920b84069855f0e9371 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u62db\u8058\u804c\u4e1a\u6570",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china-cities",
+            "data": [
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": 404
+                },
+                {
+                    "name": "\u4f5b\u5c71",
+                    "value": 13
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 450
+                },
+                {
+                    "name": "\u5357\u4eac",
+                    "value": 26
+                },
+                {
+                    "name": "\u53a6\u95e8",
+                    "value": 16
+                },
+                {
+                    "name": "\u5929\u6d25",
+                    "value": 8
+                },
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": 170
+                },
+                {
+                    "name": "\u6210\u90fd",
+                    "value": 43
+                },
+                {
+                    "name": "\u676d\u5dde",
+                    "value": 128
+                },
+                {
+                    "name": "\u6b66\u6c49",
+                    "value": 42
+                },
+                {
+                    "name": "\u6df1\u5733",
+                    "value": 291
+                },
+                {
+                    "name": "\u798f\u5dde",
+                    "value": 7
+                },
+                {
+                    "name": "\u82cf\u5dde",
+                    "value": 10
+                },
+                {
+                    "name": "\u897f\u5b89",
+                    "value": 8
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": 9
+                },
+                {
+                    "name": "\u957f\u6c99",
+                    "value": 12
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u62db\u8058\u804c\u4e1a\u6570"
+            ],
+            "selected": {
+                "\u62db\u8058\u804c\u4e1a\u6570": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5404\u57ce\u5e02\u804c\u4e1a\u9700\u6c42\u6570",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 450,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_24c8dbab461e4920b84069855f0e9371.setOption(option_24c8dbab461e4920b84069855f0e9371);
+    </script>
+</body>
+</html>
